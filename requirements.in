@@ -1,0 +1,14 @@
+certifi==2019.6.16
+chardet==3.0.4
+cookies==2.2.1
+Django==1.11.22
+djangorestframework==3.9.4
+funcsigs==1.0.2
+idna==2.8
+mock==3.0.5
+Pillow==3.4.2
+pytz==2019.1
+requests==2.22.0
+responses==0.10.6
+six==1.12.0
+urllib3==1.25.3

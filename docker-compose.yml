@@ -1,0 +1,18 @@
+version: "3"
+services:
+  code-test:
+    build:
+      context: .
+    command: "scripts/runserver"
+    volumes:
+      - .:/srv/python-code-test
+    ports:
+      - "8008:8008"
+    links:
+      - postgresql
+  postgresql:
+    image: postgres:9.6
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: postgres

@@ -1,0 +1,763 @@
+[
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+      "app_label": "admin",
+      "model": "logentry"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+      "app_label": "auth",
+      "model": "group"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+      "app_label": "auth",
+      "model": "permission"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+      "app_label": "auth",
+      "model": "user"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {
+      "app_label": "contenttypes",
+      "model": "contenttype"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+      "app_label": "sessions",
+      "model": "session"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+      "app_label": "shiptrader",
+      "model": "starship"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": {
+      "app_label": "shiptrader",
+      "model": "listing"
+    }
+  },
+  {
+    "model": "shiptrader.starship",
+    "pk": 1,
+    "fields": {
+      "starship_class": "Star dreadnought",
+      "manufacturer": "Kuat Drive Yards, Fondor Shipyards",
+      "length": "19000",
+      "hyperdrive_rating": "2.0",
+      "cargo_capacity": "250000000",
+      "crew": "279144",
+      "passengers": "38000"
+    }
+  },
+  {
+    "model": "shiptrader.starship",
+    "pk": 2,
+    "fields": {
+      "starship_class": "landing craft",
+      "manufacturer": "Sienar Fleet Systems, Cyngus Spaceworks",
+      "length": "38",
+      "hyperdrive_rating": "1.0",
+      "cargo_capacity": "180000",
+      "crew": "5",
+      "passengers": "75"
+    }
+  },
+  {
+    "model": "shiptrader.starship",
+    "pk": 3,
+    "fields": {
+      "starship_class": "Deep Space Mobile Battlestation",
+      "manufacturer": "Imperial Department of Military Research, Sienar Fleet Systems",
+      "length": "120000",
+      "hyperdrive_rating": "4.0",
+      "cargo_capacity": "1000000000000",
+      "crew": "342953",
+      "passengers": "843342"
+    }
+  },
+  {
+    "model": "shiptrader.starship",
+    "pk": 4,
+    "fields": {
+      "starship_class": "Light freighter",
+      "manufacturer": "Corellian Engineering Corporation",
+      "length": "34.37",
+      "hyperdrive_rating": "0.5",
+      "cargo_capacity": "100000",
+      "crew": "4",
+      "passengers": "6"
+    }
+  },
+  {
+    "model": "shiptrader.starship",
+    "pk": 5,
+    "fields": {
+      "starship_class": "assault starfighter",
+      "manufacturer": "Koensayr Manufacturing",
+      "length": "14",
+      "hyperdrive_rating": "1.0",
+      "cargo_capacity": "110",
+      "crew": "2",
+      "passengers": "0"
+    }
+  },
+  {
+    "model": "shiptrader.starship",
+    "pk": 6,
+    "fields": {
+      "starship_class": "Starfighter",
+      "manufacturer": "Incom Corporation",
+      "length": "12.5",
+      "hyperdrive_rating": "1.0",
+      "cargo_capacity": "110",
+      "crew": "1",
+      "passengers": "0"
+    }
+  },
+  {
+    "model": "shiptrader.starship",
+    "pk": 7,
+    "fields": {
+      "starship_class": "Starfighter",
+      "manufacturer": "Sienar Fleet Systems",
+      "length": "9.2",
+      "hyperdrive_rating": "1.0",
+      "cargo_capacity": "150",
+      "crew": "1",
+      "passengers": "0"
+    }
+  },
+  {
+    "model": "shiptrader.starship",
+    "pk": 8,
+    "fields": {
+      "starship_class": "Patrol craft",
+      "manufacturer": "Kuat Systems Engineering",
+      "length": "21.5",
+      "hyperdrive_rating": "3.0",
+      "cargo_capacity": "70000",
+      "crew": "1",
+      "passengers": "6"
+    }
+  },
+  {
+    "model": "shiptrader.starship",
+    "pk": 9,
+    "fields": {
+      "starship_class": "Armed government transport",
+      "manufacturer": "Sienar Fleet Systems",
+      "length": "20",
+      "hyperdrive_rating": "1.0",
+      "cargo_capacity": "80000",
+      "crew": "6",
+      "passengers": "20"
+    }
+  },
+  {
+    "model": "shiptrader.starship",
+    "pk": 10,
+    "fields": {
+      "starship_class": "Escort ship",
+      "manufacturer": "Kuat Drive Yards",
+      "length": "300",
+      "hyperdrive_rating": "2.0",
+      "cargo_capacity": "6000000",
+      "crew": "854",
+      "passengers": "75"
+    }
+  },
+  {
+    "model": "shiptrader.starship",
+    "pk": 11,
+    "fields": {
+      "starship_class": "Star Cruiser",
+      "manufacturer": "Mon Calamari shipyards",
+      "length": "1200",
+      "hyperdrive_rating": "1.0",
+      "cargo_capacity": "unknown",
+      "crew": "5400",
+      "passengers": "1200"
+    }
+  },
+  {
+    "model": "shiptrader.starship",
+    "pk": 12,
+    "fields": {
+      "starship_class": "Starfighter",
+      "manufacturer": "Alliance Underground Engineering, Incom Corporation",
+      "length": "9.6",
+      "hyperdrive_rating": "1.0",
+      "cargo_capacity": "40",
+      "crew": "1",
+      "passengers": "0"
+    }
+  },
+  {
+    "model": "shiptrader.starship",
+    "pk": 13,
+    "fields": {
+      "starship_class": "Assault Starfighter",
+      "manufacturer": "Slayn & Korpil",
+      "length": "16.9",
+      "hyperdrive_rating": "2.0",
+      "cargo_capacity": "45",
+      "crew": "1",
+      "passengers": "0"
+    }
+  },
+  {
+    "model": "shiptrader.starship",
+    "pk": 14,
+    "fields": {
+      "starship_class": "Space cruiser",
+      "manufacturer": "Corellian Engineering Corporation",
+      "length": "115",
+      "hyperdrive_rating": "2.0",
+      "cargo_capacity": "unknown",
+      "crew": "9",
+      "passengers": "16"
+    }
+  },
+  {
+    "model": "shiptrader.starship",
+    "pk": 15,
+    "fields": {
+      "starship_class": "Starfighter",
+      "manufacturer": "Theed Palace Space Vessel Engineering Corps",
+      "length": "11",
+      "hyperdrive_rating": "1.0",
+      "cargo_capacity": "65",
+      "crew": "1",
+      "passengers": "0"
+    }
+  },
+  {
+    "model": "shiptrader.starship",
+    "pk": 16,
+    "fields": {
+      "starship_class": "yacht",
+      "manufacturer": "Theed Palace Space Vessel Engineering Corps, Nubia Star Drives",
+      "length": "76",
+      "hyperdrive_rating": "1.8",
+      "cargo_capacity": "unknown",
+      "crew": "8",
+      "passengers": "unknown"
+    }
+  },
+  {
+    "model": "shiptrader.starship",
+    "pk": 17,
+    "fields": {
+      "starship_class": "Space Transport",
+      "manufacturer": "Republic Sienar Systems",
+      "length": "26.5",
+      "hyperdrive_rating": "1.5",
+      "cargo_capacity": "2500000",
+      "crew": "1",
+      "passengers": "6"
+    }
+  },
+  {
+    "model": "shiptrader.starship",
+    "pk": 18,
+    "fields": {
+      "starship_class": "Diplomatic barge",
+      "manufacturer": "Theed Palace Space Vessel Engineering Corps, Nubia Star Drives",
+      "length": "39",
+      "hyperdrive_rating": "0.7",
+      "cargo_capacity": "unknown",
+      "crew": "5",
+      "passengers": "10"
+    }
+  },
+  {
+    "model": "shiptrader.starship",
+    "pk": 19,
+    "fields": {
+      "starship_class": "freighter",
+      "manufacturer": "Botajef Shipyards",
+      "length": "390",
+      "hyperdrive_rating": "unknown",
+      "cargo_capacity": "unknown",
+      "crew": "unknown",
+      "passengers": "30000"
+    }
+  },
+  {
+    "model": "shiptrader.starship",
+    "pk": 20,
+    "fields": {
+      "starship_class": "Starfighter",
+      "manufacturer": "Kuat Systems Engineering",
+      "length": "8",
+      "hyperdrive_rating": "1.0",
+      "cargo_capacity": "60",
+      "crew": "1",
+      "passengers": "0"
+    }
+  },
+  {
+    "model": "shiptrader.starship",
+    "pk": 21,
+    "fields": {
+      "starship_class": "yacht",
+      "manufacturer": "Theed Palace Space Vessel Engineering Corps",
+      "length": "47.9",
+      "hyperdrive_rating": "0.9",
+      "cargo_capacity": "unknown",
+      "crew": "4",
+      "passengers": "unknown"
+    }
+  },
+  {
+    "model": "shiptrader.starship",
+    "pk": 22,
+    "fields": {
+      "starship_class": "Star Destroyer",
+      "manufacturer": "Kuat Drive Yards",
+      "length": "1,600",
+      "hyperdrive_rating": "2.0",
+      "cargo_capacity": "36000000",
+      "crew": "47060",
+      "passengers": "0"
+    }
+  },
+  {
+    "model": "shiptrader.starship",
+    "pk": 23,
+    "fields": {
+      "starship_class": "capital ship",
+      "manufacturer": "Rendili StarDrive, Free Dac Volunteers Engineering corps.",
+      "length": "1088",
+      "hyperdrive_rating": "1.5",
+      "cargo_capacity": "50000000",
+      "crew": "600",
+      "passengers": "48247"
+    }
+  },
+  {
+    "model": "shiptrader.starship",
+    "pk": 24,
+    "fields": {
+      "starship_class": "transport",
+      "manufacturer": "Cygnus Spaceworks",
+      "length": "18.5",
+      "hyperdrive_rating": "1.0",
+      "cargo_capacity": "50000",
+      "crew": "5",
+      "passengers": "16"
+    }
+  },
+  {
+    "model": "shiptrader.starship",
+    "pk": 25,
+    "fields": {
+      "starship_class": "fighter",
+      "manufacturer": "Incom",
+      "length": "unknown",
+      "hyperdrive_rating": "unknown",
+      "cargo_capacity": "unknown",
+      "crew": "1",
+      "passengers": "unknown"
+    }
+  },
+  {
+    "model": "shiptrader.starship",
+    "pk": 26,
+    "fields": {
+      "starship_class": "Medium transport",
+      "manufacturer": "Gallofree Yards, Inc.",
+      "length": "90",
+      "hyperdrive_rating": "4.0",
+      "cargo_capacity": "19000000",
+      "crew": "6",
+      "passengers": "90"
+    }
+  },
+  {
+    "model": "shiptrader.starship",
+    "pk": 27,
+    "fields": {
+      "starship_class": "Droid control ship",
+      "manufacturer": "Hoersch-Kessel Drive, Inc.",
+      "length": "3170",
+      "hyperdrive_rating": "2.0",
+      "cargo_capacity": "4000000000",
+      "crew": "175",
+      "passengers": "139000"
+    }
+  },
+  {
+    "model": "shiptrader.starship",
+    "pk": 28,
+    "fields": {
+      "starship_class": "assault ship",
+      "manufacturer": "Rothana Heavy Engineering",
+      "length": "752",
+      "hyperdrive_rating": "0.6",
+      "cargo_capacity": "11250000",
+      "crew": "700",
+      "passengers": "16000"
+    }
+  },
+  {
+    "model": "shiptrader.starship",
+    "pk": 29,
+    "fields": {
+      "starship_class": "yacht",
+      "manufacturer": "Huppla Pasa Tisc Shipwrights Collective",
+      "length": "15.2",
+      "hyperdrive_rating": "1.5",
+      "cargo_capacity": "240",
+      "crew": "3",
+      "passengers": "11"
+    }
+  },
+  {
+    "model": "shiptrader.starship",
+    "pk": 30,
+    "fields": {
+      "starship_class": "star destroyer",
+      "manufacturer": "Kuat Drive Yards, Allanteen Six shipyards",
+      "length": "1137",
+      "hyperdrive_rating": "1.0",
+      "cargo_capacity": "20000000",
+      "crew": "7400",
+      "passengers": "2000"
+    }
+  },
+  {
+    "model": "shiptrader.starship",
+    "pk": 31,
+    "fields": {
+      "starship_class": "yacht",
+      "manufacturer": "Theed Palace Space Vessel Engineering Corps/Nubia Star Drives, Incorporated",
+      "length": "29.2",
+      "hyperdrive_rating": "0.5",
+      "cargo_capacity": "unknown",
+      "crew": "3",
+      "passengers": "3"
+    }
+  },
+  {
+    "model": "shiptrader.starship",
+    "pk": 32,
+    "fields": {
+      "starship_class": "starfighter",
+      "manufacturer": "Kuat Systems Engineering",
+      "length": "5.47",
+      "hyperdrive_rating": "1.0",
+      "cargo_capacity": "60",
+      "crew": "1",
+      "passengers": "0"
+    }
+  },
+  {
+    "model": "shiptrader.starship",
+    "pk": 33,
+    "fields": {
+      "starship_class": "starfighter",
+      "manufacturer": "Incom Corporation, Subpro Corporation",
+      "length": "14.5",
+      "hyperdrive_rating": "1.0",
+      "cargo_capacity": "110",
+      "crew": "3",
+      "passengers": "0"
+    }
+  },
+  {
+    "model": "shiptrader.starship",
+    "pk": 34,
+    "fields": {
+      "starship_class": "starfighter",
+      "manufacturer": "Feethan Ottraw Scalable Assemblies",
+      "length": "6.71",
+      "hyperdrive_rating": "6",
+      "cargo_capacity": "140",
+      "crew": "1",
+      "passengers": "0"
+    }
+  },
+  {
+    "model": "shiptrader.starship",
+    "pk": 35,
+    "fields": {
+      "starship_class": "starfighter",
+      "manufacturer": "Kuat Systems Engineering",
+      "length": "7.9",
+      "hyperdrive_rating": "1.0",
+      "cargo_capacity": "60",
+      "crew": "1",
+      "passengers": "0"
+    }
+  },
+  {
+    "model": "shiptrader.starship",
+    "pk": 36,
+    "fields": {
+      "starship_class": "corvette",
+      "manufacturer": "Corellian Engineering Corporation",
+      "length": "150",
+      "hyperdrive_rating": "2.0",
+      "cargo_capacity": "3000000",
+      "crew": "165",
+      "passengers": "600"
+    }
+  },
+  {
+    "model": "shiptrader.starship",
+    "pk": 37,
+    "fields": {
+      "starship_class": "cruiser",
+      "manufacturer": "Hoersch-Kessel Drive, Inc, Gwori Revolutionary Industries",
+      "length": "825",
+      "hyperdrive_rating": "1.0",
+      "cargo_capacity": "40000000",
+      "crew": "200",
+      "passengers": "unknown"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+      "name": "Can add log entry",
+      "content_type": 1,
+      "codename": "add_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+      "name": "Can change log entry",
+      "content_type": 1,
+      "codename": "change_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+      "name": "Can delete log entry",
+      "content_type": 1,
+      "codename": "delete_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+      "name": "Can add group",
+      "content_type": 2,
+      "codename": "add_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+      "name": "Can change group",
+      "content_type": 2,
+      "codename": "change_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+      "name": "Can delete group",
+      "content_type": 2,
+      "codename": "delete_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+      "name": "Can add permission",
+      "content_type": 3,
+      "codename": "add_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+      "name": "Can change permission",
+      "content_type": 3,
+      "codename": "change_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+      "name": "Can delete permission",
+      "content_type": 3,
+      "codename": "delete_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+      "name": "Can add user",
+      "content_type": 4,
+      "codename": "add_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+      "name": "Can change user",
+      "content_type": 4,
+      "codename": "change_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+      "name": "Can delete user",
+      "content_type": 4,
+      "codename": "delete_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+      "name": "Can add content type",
+      "content_type": 5,
+      "codename": "add_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+      "name": "Can change content type",
+      "content_type": 5,
+      "codename": "change_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+      "name": "Can delete content type",
+      "content_type": 5,
+      "codename": "delete_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+      "name": "Can add session",
+      "content_type": 6,
+      "codename": "add_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+      "name": "Can change session",
+      "content_type": 6,
+      "codename": "change_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+      "name": "Can delete session",
+      "content_type": 6,
+      "codename": "delete_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+      "name": "Can add starship",
+      "content_type": 7,
+      "codename": "add_starship"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+      "name": "Can change starship",
+      "content_type": 7,
+      "codename": "change_starship"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+      "name": "Can delete starship",
+      "content_type": 7,
+      "codename": "delete_starship"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+      "name": "Can add listing",
+      "content_type": 8,
+      "codename": "add_listing"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+      "name": "Can change listing",
+      "content_type": 8,
+      "codename": "change_listing"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+      "name": "Can delete listing",
+      "content_type": 8,
+      "codename": "delete_listing"
+    }
+  }
+]
